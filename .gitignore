@@ -1,0 +1,41 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets & runtime data — NEVER commit
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets/
+*.secret
+
+# Local lab artefacts
+*.pcap
+*.pcapng
+*.log
+logs/
+data/
+volumes/
+
+# Backups
+*.bak
+*.tar.gz
+
+# Docker
+**/docker-compose.override.yml
+
+# Python / venv
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
